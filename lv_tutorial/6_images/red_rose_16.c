@@ -4,7 +4,11 @@
 #define LV_ATTRIBUTE_MEM_ALIGN
 #endif
 
-const LV_ATTRIBUTE_MEM_ALIGN uint8_t red_rose_16_map[] = {
+#ifndef LV_ATTRIBUTE_IMG_RED_ROSE_16
+#define LV_ATTRIBUTE_IMG_RED_ROSE_16
+#endif
+
+LV_ATTRIBUTE_IMG_RED_ROSE_16 const LV_ATTRIBUTE_MEM_ALIGN uint8_t red_rose_16_map[] = {
   0x05, 0x08, 0x58, 0xff, 	/*Color of index 0*/
   0x0e, 0x1a, 0x43, 0xff, 	/*Color of index 1*/
   0x08, 0x0e, 0x8e, 0xff, 	/*Color of index 2*/

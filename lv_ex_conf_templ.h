@@ -54,6 +54,13 @@
 /*Touch pad calibration with 4 points*/
 #define LV_USE_TPCAL       0
 
+/*Image Map Atteibute*/
+#define LV_ATTRIBUTE_IMG_BENCHMARK
+#define LV_ATTRIBUTE_IMG_BUBBLE 
+#define LV_ATTRIBUTE_IMG_FLOWER_ICON
+#define LV_ATTRIBUTE_IMG_RED_FLOWER
+#define LV_ATTRIBUTE_IMG_RED_ROSE_16
+
 #endif /*LV_EX_CONF_H*/
 
 #endif /*End of "Content enable"*/
